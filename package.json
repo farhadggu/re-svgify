@@ -1,6 +1,6 @@
 {
   "name": "re-svgify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to convert SVG icons into React components.",
   "main": "index.js",
   "bin": {
