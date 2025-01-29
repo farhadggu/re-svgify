@@ -1,0 +1,42 @@
+import React, { FC, SVGAttributes } from "react";
+
+type SvgIcon = SVGAttributes<SVGElement> & {
+  applyStroke?: boolean;
+};
+
+const BaseIcon: FC<SvgIcon & { applyStroke?: boolean }> = ({
+  color = "currentColor",
+  width = 24,
+  height = 24,
+  viewBox = "0 0 24 24",
+  strokeWidth = "1.5",
+  applyStroke = false,
+  children,
+  ...rest
+}) => {
+
+  console.log(applyStroke)
+  const strokeProps = applyStroke
+    ? {
+        fill: "none",
+        stroke: "black",
+        strokeWidth,
+        strokeLinecap: "round" as "round",
+        strokeLinejoin: "round" as "round",
+      }
+    : {};
+
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox={viewBox} {...strokeProps} {...rest}>
+      {children}
+    </svg>
+  );
+};
+
+export default function SvgIcon(props: SvgIcon) {
+  return (
+    <BaseIcon {...props} applyStroke={<%= file.applyStroke %>}>
+      <%= contents %>
+    </BaseIcon>
+  );
+}
