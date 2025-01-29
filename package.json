@@ -1,0 +1,28 @@
+{
+  "name": "re-svgify",
+  "version": "1.0.0",
+  "description": "A CLI tool to convert SVG icons into React components.",
+  "main": "index.js",
+  "bin": {
+    "re-svgify": "./bin/re-svgify.js"
+  },
+  "scripts": {
+    "build": "gulp --gulpfile scripts/gulpfile.cjs"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-replace": "^1.1.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-wrap": "^0.15.0",
+    "gulp-tap": "^1.0.1"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icons",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
