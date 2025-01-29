@@ -3,7 +3,7 @@ const path = require("path");
 const { exec } = require("child_process");
 
 // Paths
-const projectRoot = process.cwd(); // Root of the project where re-svg is installed
+const projectRoot = process.cwd(); // Root of the project where re-svgify is installed
 const iconsFolder = path.join(projectRoot, "_icons"); // Look for _icons folder
 const componentsFolder = path.join(projectRoot, "components", "icons"); // Output folder
 const gulpfilePath = path.join(__dirname, "../scripts/gulpfile.cjs"); // Path to Gulpfile

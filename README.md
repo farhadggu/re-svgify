@@ -1,6 +1,6 @@
-# 🚀 re-svg – Convert & Customize SVGs as React Components
+# 🚀 re-svgify – Convert & Customize SVGs as React Components
 
-**re-svg** is a powerful tool that transforms your SVG files into optimized, fully customizable React components. No more manual conversions—just drop your SVGs in a folder and let **re-svg** handle the rest!
+**re-svgify** is a powerful tool that transforms your SVG files into optimized, fully customizable React components. No more manual conversions—just drop your SVGs in a folder and let **re-svgify** handle the rest!
 
 ---
 
@@ -31,7 +31,7 @@
 ## 📥 Installation
 
 ```sh
-npm install -g re-svg
+npm install -g re-svgify
 ```
 
 ---
@@ -42,7 +42,7 @@ npm install -g re-svg
 2. **Run the CLI command:**
 
    ```sh
-   npx re-svg
+   npx re-svgify
    ```
 
 3. **Find your generated components** inside `components/icons/`.
@@ -84,17 +84,17 @@ export default function IconArrowDown(props: SvgIcon) {
 
 ## ⚙️ Configuration
 
-By default, re-svg looks for `_icons/` and outputs components to `components/icons/`. You can modify this in `gulpfile.cjs`.
+By default, re-svgify looks for `_icons/` and outputs components to `components/icons/`. You can modify this in `gulpfile.cjs`.
 
 To customize the output directory:
 
 ```sh
-npx re-svg --iconsFolder ./my-icons --componentsFolder ./src/components/icons
+npx re-svgify --iconsFolder ./my-icons --componentsFolder ./src/components/icons
 ```
 
 ---
 
-## 💡 Why Use re-svg?
+## 💡 Why Use re-svgify?
 
 ✅ **Saves time** – No more manual React conversions!  
 ✅ **Performance-focused** – Minified, clean SVGs for better rendering.  
@@ -115,4 +115,4 @@ MIT License. Free to use, modify, and share.
 
 ---
 
-🚀 **Transform & customize your icons effortlessly with re-svg!** 🎨💡
+🚀 **Transform & customize your icons effortlessly with re-svgify!** 🎨💡
