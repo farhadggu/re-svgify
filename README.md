@@ -2,6 +2,10 @@
 
 **re-svgify** is a powerful tool that transforms your SVG files into optimized, fully customizable React components. No more manual conversions—just drop your SVGs in a folder and let **re-svgify** handle the rest!
 
+<a href="https://www.npmjs.com/package/re-svgify" rel="nofollow"><img src="https://img.shields.io/npm/v/re-svgify.svg?style=flat" alt="NPM version" style="max-width: 100%;"></a>
+
+![comp-craft LOGO](https://github.com/farhadggu/re-svgify/raw/main/public/re-svg.webp)
+
 ---
 
 ## 🎨 **Fully Customizable Icons**
