@@ -4,7 +4,7 @@
 
 <a href="https://www.npmjs.com/package/re-svgify" rel="nofollow"><img src="https://img.shields.io/npm/v/re-svgify.svg?style=flat" alt="NPM version" style="max-width: 100%;"></a>
 
-![comp-craft LOGO](https://github.com/farhadggu/re-svgify/raw/main/public/re-svg.webp)
+<img src="https://github.com/farhadggu/re-svgify/raw/main/public/re-svg.webp" width="200" height="200" alt="re-svgify logo" />
 
 ---
 
